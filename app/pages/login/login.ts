@@ -1,10 +1,11 @@
 import {Component} from "angular2/core";
 import {Router} from "angular2/router";
+
 import {RestUser} from "../../models/rest-models";
 
 @Component({
   selector: "login",
-  templateUrl: "pages/login/login.html",  
+  templateUrl: "pages/login/login.html"
 })
 export class LoginPage {
     
