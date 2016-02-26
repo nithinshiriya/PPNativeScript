@@ -1,0 +1,11 @@
+<StackLayout>
+  <Image src="res://logo" stretch="none" horizontalAlignment="center"></Image>
+
+  <TextField [(ngModel)]="email" id="email" hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none"></TextField>
+  <TextField [(ngModel)]="password" id="password" secure="true"  hint="Password"></TextField>
+
+  <Button text="Sign in" (tap)="signIn()"></Button>
+  <Button text="Sign up for PicPoll" class="link" (tap)="register()"></Button>
+  
+  <Button text="Create Poll" class="link" (tap)="createPoll()"></Button>
+</StackLayout>

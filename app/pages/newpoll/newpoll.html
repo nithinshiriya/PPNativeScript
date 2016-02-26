@@ -1,0 +1,18 @@
+<StackLayout orientation="vertical" >          
+        <StackLayout orientation="vertical">
+            <GridLayout columns="33*, 33*, 33*" rows="auto" >
+                <Button col="0" ></Button>
+                <Button col="1" ></Button>
+                <Button col="2" ></Button>
+            </GridLayout>
+            
+            <StackLayout orientation="vertical">
+                <TextField hint="Poll Caption"  autocorrect="false" autocapitalizationType="none" ></TextField>
+                <GridLayout rows="auto" columns="auto, *, auto" (tap)="displayExpiryList()">
+                    <Label col="0" text="Expires In"></Label>
+                    <Label col="1" text="" ></Label>
+                    <Label col="2" text="3 Days"></Label>                        
+                </GridLayout>
+            </StackLayout>
+        </StackLayout>    
+</StackLayout>

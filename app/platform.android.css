@@ -1,0 +1,12 @@
+.link {
+    background-color: transparent;
+}
+
+Button {
+    background-color: #2ecc71;
+     color: #ecf0f1;
+     transition: background-color .3s;
+     border-width: 0;
+     border-radius: 2px;
+     box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}
